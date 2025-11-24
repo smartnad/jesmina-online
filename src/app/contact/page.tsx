@@ -62,7 +62,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-700 mb-1">Email Us</p>
-                                        <p className="text-gray-500">hello@jesmina.online</p>
+                                        <p className="text-gray-500">jesmina.online@support.com</p>
                                         <p className="text-gray-400 text-sm mt-1">We reply within 24 hours</p>
                                     </div>
                                 </div>
@@ -72,8 +72,8 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-700 mb-1">Call Us</p>
-                                        <p className="text-gray-500">+1 (555) 123-4567</p>
-                                        <p className="text-gray-400 text-sm mt-1">Mon-Fri, 9am - 6pm EST</p>
+                                        <p className="text-gray-500">+91 8723912947</p>
+                                        <p className="text-gray-400 text-sm mt-1">WhatsApp available</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start group">
@@ -82,8 +82,8 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-700 mb-1">Visit Us</p>
-                                        <p className="text-gray-500">123 Creative Ave, Suite 400</p>
-                                        <p className="text-gray-500">New York, NY 10012</p>
+                                        <p className="text-gray-500">Tezpur, Assam</p>
+                                        <p className="text-gray-500">India</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ export default function ContactPage() {
                             <div className="mt-10 pt-10 border-t border-gray-100">
                                 <h4 className="font-bold text-gray-700 mb-4">Follow Us</h4>
                                 <div className="flex gap-4">
-                                    <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-400 hover:bg-pastel-gold hover:text-white transition-colors">
+                                    <a href="https://www.instagram.com/___official_jesmina__03?igsh=aGFrczB4ZG94dzZw" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-50 rounded-full text-gray-400 hover:bg-pastel-gold hover:text-white transition-colors">
                                         <Instagram size={20} />
                                     </a>
                                     <a href="#" className="p-3 bg-gray-50 rounded-full text-gray-400 hover:bg-pastel-gold hover:text-white transition-colors">

@@ -29,10 +29,10 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-pastel-text mb-4">Connect</h3>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-400 hover:text-pastel-gold transition-colors"><Instagram size={20} /></a>
+                            <a href="https://www.instagram.com/___official_jesmina__03?igsh=aGFrczB4ZG94dzZw" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pastel-gold transition-colors"><Instagram size={20} /></a>
                             <a href="#" className="text-gray-400 hover:text-pastel-gold transition-colors"><Twitter size={20} /></a>
                             <a href="#" className="text-gray-400 hover:text-pastel-gold transition-colors"><Facebook size={20} /></a>
-                            <a href="#" className="text-gray-400 hover:text-pastel-gold transition-colors"><Mail size={20} /></a>
+                            <a href="mailto:jesmina.online@support.com" className="text-gray-400 hover:text-pastel-gold transition-colors"><Mail size={20} /></a>
                         </div>
                     </div>
                 </div>
