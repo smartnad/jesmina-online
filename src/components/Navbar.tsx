@@ -130,14 +130,28 @@ export default function Navbar() {
                                     <Link
                                         href={link.href}
                                         onClick={() => setIsOpen(false)}
-                                        className="text-3xl font-sans font-medium text-pastel-text hover:text-pastel-gold transition-colors"
+                                        className="text-3xl font-sans font-medium text-gray-800 hover:text-pastel-gold transition-colors"
                                     >
                                         {link.name}
                                     </Link>
                                 </motion.div>
                             ))}
 
-
+                            {/* Admin Link */}
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0, y: 20 }}
+                                transition={{ delay: navLinks.length * 0.1 }}
+                            >
+                                <Link
+                                    href="/login"
+                                    onClick={() => setIsOpen(false)}
+                                    className="text-3xl font-sans font-medium text-pastel-gold hover:text-yellow-500 transition-colors"
+                                >
+                                    Admin
+                                </Link>
+                            </motion.div>
 
                             {/* Social Links */}
                             <motion.div
