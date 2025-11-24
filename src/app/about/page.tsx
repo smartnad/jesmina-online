@@ -35,22 +35,22 @@ export default function AboutPage() {
                             viewport={{ once: true }}
                         >
                             <span className="text-pastel-gold font-bold tracking-wider uppercase text-sm">About Us</span>
-                            <h1 className="font-cursive text-6xl text-pastel-text mt-4 mb-8">Hello, I'm Jesmina</h1>
+                            <h1 className="font-cursive text-6xl text-pastel-text mt-4 mb-8">Hello, I&apos;m Jesmina</h1>
                             <h2 className="text-2xl font-bold text-gray-700 mb-6">Creative Director & Lead Developer</h2>
                             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
                                 <p>
-                                    I founded Jesmina Online with a simple mission: to bring beauty and strategy together in the digital space. I believe that a website shouldn't just function—it should feel like an experience.
+                                    I founded Jesmina Online with a simple mission: to bring beauty and strategy together in the digital space. I believe that a website shouldn&apos;t just function—it should feel like an experience.
                                 </p>
                                 <p>
                                     With a background in fine arts and computer science, I bridge the gap between aesthetic elegance and technical precision. My team and I are dedicated to helping women-led businesses find their voice and claim their space online.
                                 </p>
                                 <p>
-                                    When I'm not coding or designing, you can find me exploring art galleries, sipping matcha lattes, or sketching in my notebook.
+                                    When I&apos;m not coding or designing, you can find me exploring art galleries, sipping matcha lattes, or sketching in my notebook.
                                 </p>
                             </div>
                             <div className="mt-10">
                                 <Link href="/contact">
-                                    <Button size="lg" className="rounded-full px-10 py-6">Let's Create Magic</Button>
+                                    <Button size="lg" className="rounded-full px-10 py-6">Let&apos;s Create Magic</Button>
                                 </Link>
                             </div>
                         </motion.div>
