@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Briefcase, DollarSign, Image, PenTool, LogOut, Mail, Menu, X, User } from "lucide-react";
+import { LayoutDashboard, Briefcase, DollarSign, Image as ImageIcon, PenTool, LogOut, Mail, Menu, X, User } from "lucide-react";
 import { SessionProvider, signOut, useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -36,7 +36,7 @@ function AdminAuth({ children }: { children: React.ReactNode }) {
         { name: "Dashboard", href: "/admin", icon: <LayoutDashboard size={20} /> },
         { name: "Services", href: "/admin/services", icon: <Briefcase size={20} /> },
         { name: "Pricing", href: "/admin/pricing", icon: <DollarSign size={20} /> },
-        { name: "Portfolio", href: "/admin/portfolio", icon: <Image size={20} /> },
+        { name: "Portfolio", href: "/admin/portfolio", icon: <ImageIcon size={20} /> },
         { name: "Blog", href: "/admin/blog", icon: <PenTool size={20} /> },
         { name: "Messages", href: "/admin/messages", icon: <Mail size={20} /> },
         { name: "Contact Info", href: "/admin/contact-info", icon: <User size={20} /> },
@@ -85,8 +85,8 @@ function AdminAuth({ children }: { children: React.ReactNode }) {
                             key={link.href}
                             href={link.href}
                             className={`flex items-center space-x-3 px-4 py-3 rounded-xl transition-all duration-200 ${pathname === link.href
-                                    ? "bg-pastel-gold text-white shadow-lg shadow-pastel-gold/30 translate-x-1"
-                                    : "text-gray-600 hover:bg-pastel-cream hover:text-pastel-text"
+                                ? "bg-pastel-gold text-white shadow-lg shadow-pastel-gold/30 translate-x-1"
+                                : "text-gray-600 hover:bg-pastel-cream hover:text-pastel-text"
                                 }`}
                         >
                             {link.icon}

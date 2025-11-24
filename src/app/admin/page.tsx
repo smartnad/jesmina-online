@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { LayoutDashboard, Briefcase, DollarSign, Image, PenTool, Users, TrendingUp, Eye } from "lucide-react";
+import { LayoutDashboard, Briefcase, DollarSign, Image as ImageIcon, PenTool, Users, TrendingUp, Eye } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 
 // Mock Data for Charts
@@ -30,7 +30,7 @@ export default function AdminDashboard() {
             <div className="flex justify-between items-center">
                 <div>
                     <h1 className="text-3xl font-bold text-gray-800">Dashboard Overview</h1>
-                    <p className="text-gray-500">Welcome back, Admin. Here's what's happening today.</p>
+                    <p className="text-gray-500">Welcome back, Admin. Here&apos;s what&apos;s happening today.</p>
                 </div>
                 <div className="bg-white p-2 rounded-xl shadow-sm border border-gray-100 flex items-center gap-2">
                     <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
@@ -42,7 +42,7 @@ export default function AdminDashboard() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {[
                     { title: "Total Services", value: "6", icon: <Briefcase className="text-pastel-gold" />, color: "bg-pastel-cream" },
-                    { title: "Portfolio Items", value: "12", icon: <Image className="text-pastel-pink" />, color: "bg-pink-50" },
+                    { title: "Portfolio Items", value: "12", icon: <ImageIcon className="text-pastel-pink" />, color: "bg-pink-50" },
                     { title: "Blog Posts", value: "8", icon: <PenTool className="text-pastel-lilac" />, color: "bg-purple-50" },
                     { title: "Total Views", value: "24.5k", icon: <Eye className="text-blue-400" />, color: "bg-blue-50" },
                 ].map((stat, index) => (

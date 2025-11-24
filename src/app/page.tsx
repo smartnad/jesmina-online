@@ -198,7 +198,7 @@ export default function Home() {
 
                     <h2 className="font-cursive text-7xl text-pastel-text mb-8">Ready to Elevate Your Brand?</h2>
                     <p className="text-2xl text-gray-600 mb-12 max-w-2xl mx-auto">
-                        Let's create something extraordinary together. Your vision, our expertise.
+                        Let&apos;s create something extraordinary together. Your vision, our expertise.
                     </p>
                     <Link href="/contact">
                         <Button size="lg" className="px-16 py-8 text-xl rounded-full bg-pastel-text text-white hover:bg-gray-800 shadow-2xl hover:shadow-pastel-gold/50 transition-all transform hover:-translate-y-2">

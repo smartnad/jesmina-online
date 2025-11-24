@@ -41,8 +41,8 @@ export default function ContactPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-20">
                     <span className="text-pastel-gold font-bold tracking-wider uppercase text-sm">Get In Touch</span>
-                    <h1 className="font-cursive text-6xl text-pastel-text mt-4 mb-6">Let's Start a Conversation</h1>
-                    <p className="text-xl text-gray-500">We'd love to hear about your project and how we can help.</p>
+                    <h1 className="font-cursive text-6xl text-pastel-text mt-4 mb-6">Let&apos;s Start a Conversation</h1>
+                    <p className="text-xl text-gray-500">We&apos;d love to hear about your project and how we can help.</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -118,7 +118,7 @@ export default function ContactPage() {
                                     <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                                 </div>
                                 <h3 className="text-3xl font-bold text-gray-800 mb-4 font-cursive">Message Sent!</h3>
-                                <p className="text-gray-500 mb-8 max-w-xs mx-auto">Thank you for reaching out. We'll get back to you shortly.</p>
+                                <p className="text-gray-500 mb-8 max-w-xs mx-auto">Thank you for reaching out. We&apos;ll get back to you shortly.</p>
                                 <Button onClick={() => setStatus('idle')} variant="outline">Send Another</Button>
                             </div>
                         ) : (
