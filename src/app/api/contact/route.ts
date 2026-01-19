@@ -17,11 +17,4 @@ export async function POST(request: Request) {
     }
 }
 
-export async function GET() {
-    try {
-        const contacts = db.get('contacts');
-        return NextResponse.json({ success: true, data: contacts });
-    } catch (error) {
-        return NextResponse.json({ success: false, error: 'Failed to fetch messages' }, { status: 500 });
-    }
-}
+

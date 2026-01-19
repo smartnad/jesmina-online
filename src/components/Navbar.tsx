@@ -76,11 +76,6 @@ export default function Navbar() {
                                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-pastel-gold transition-all duration-300 group-hover:w-full"></span>
                                 </Link>
                             ))}
-                            <Link href="/login">
-                                <Button variant="outline" size="sm" className="rounded-full border-pastel-gold text-pastel-gold hover:bg-pastel-gold hover:text-white">
-                                    Admin
-                                </Button>
-                            </Link>
                         </div>
 
                         {/* Mobile Menu Button */}
@@ -119,11 +114,6 @@ export default function Navbar() {
                                         {link.name}
                                     </Link>
                                 ))}
-                                <Link href="/login" onClick={() => setIsOpen(false)}>
-                                    <span className="text-pastel-gold hover:text-yellow-500 font-medium transition-colors text-sm">
-                                        Admin
-                                    </span>
-                                </Link>
                             </div>
                         </div>
                     </motion.div>

@@ -10,12 +10,4 @@ export async function GET() {
     }
 }
 
-export async function POST(request: Request) {
-    try {
-        const body = await request.json();
-        const service = db.add('services', body);
-        return NextResponse.json({ success: true, data: service }, { status: 201 });
-    } catch (error) {
-        return NextResponse.json({ success: false, error: 'Failed to create service' }, { status: 400 });
-    }
-}
+

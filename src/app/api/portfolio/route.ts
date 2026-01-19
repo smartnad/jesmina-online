@@ -10,12 +10,4 @@ export async function GET() {
     }
 }
 
-export async function POST(request: Request) {
-    try {
-        const body = await request.json();
-        const item = db.add('portfolio', body);
-        return NextResponse.json({ success: true, data: item }, { status: 201 });
-    } catch (error) {
-        return NextResponse.json({ success: false, error: 'Failed to create portfolio item' }, { status: 400 });
-    }
-}
+
