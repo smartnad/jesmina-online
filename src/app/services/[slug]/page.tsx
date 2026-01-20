@@ -29,7 +29,7 @@ export default function ServiceDetailPage() {
                 </p>
 
                 <div className="bg-pastel-cream/30 rounded-3xl p-8 mb-12 border border-transparent hover:border-pastel-gold/20 transition-all">
-                    <h2 className="text-2xl font-bold text-pastel-text mb-6">What's Included</h2>
+                    <h2 className="text-2xl font-bold text-pastel-text mb-6">What&apos;s Included</h2>
                     <ul className="space-y-4">
                         {[
                             "Initial Consultation & Strategy",
