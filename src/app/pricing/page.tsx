@@ -101,7 +101,7 @@ export default function PricingPage() {
                             </ul>
                             <Link href="/contact">
                                 <Button
-                                    variant={plan.popular ? "primary" : "outline"}
+                                    variant={plan.popular ? "default" : "outline"}
                                     className={cn(
                                         "w-full py-6 rounded-xl text-lg",
                                         plan.popular ? "shadow-lg shadow-pastel-gold/20" : ""
