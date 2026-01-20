@@ -213,16 +213,7 @@ var ctx,
         dampening: 0.025,
         tension: 0.99,
     };
-function Node() {
-    // @ts-ignore
-    this.x = 0;
-    // @ts-ignore
-    this.y = 0;
-    // @ts-ignore
-    this.vy = 0;
-    // @ts-ignore
-    this.vx = 0;
-}
+
 
 const renderCanvas = function () {
     // @ts-ignore
