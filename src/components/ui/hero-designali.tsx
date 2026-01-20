@@ -40,6 +40,17 @@ function Line(e) {
     this.init(e || {});
 }
 
+function Node() {
+    // @ts-ignore
+    this.x = 0;
+    // @ts-ignore
+    this.y = 0;
+    // @ts-ignore
+    this.vy = 0;
+    // @ts-ignore
+    this.vx = 0;
+}
+
 Line.prototype = {
     // @ts-ignore
     init: function (e) {
@@ -50,6 +61,7 @@ Line.prototype = {
         // @ts-ignore
         this.nodes = [];
         for (var t, n = 0; n < E.size; n++) {
+            // @ts-ignore
             t = new Node();
             // @ts-ignore
             t.x = pos.x;
